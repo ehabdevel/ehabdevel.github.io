@@ -14,6 +14,8 @@
   <body>
     <div class="wrapper">
       <header>
+           {% include navigation.html %}
+        
         <h1>{{ site.title | default: ehabdevel.github.io }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
@@ -33,7 +35,6 @@
           </ul>
         {% endif %}
                 
-      {% include navigation.html %}
       </header>
       <section>
 
