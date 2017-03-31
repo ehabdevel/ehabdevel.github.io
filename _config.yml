@@ -2,3 +2,5 @@ theme: jekyll-theme-minimal
 title: Ehab site
 description: A short description of my work
 google_analytics: [Your Google Analytics tracking ID]
+gems:
+  - jekyll-sitemap
