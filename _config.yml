@@ -4,3 +4,9 @@ description: A short description of my work
 google_analytics: [Your Google Analytics tracking ID]
 gems:
   - jekyll-sitemap
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
