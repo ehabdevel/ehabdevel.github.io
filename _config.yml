@@ -16,13 +16,7 @@
 title: Ehab Developer
 email: ehabdevel@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Ontwikkelaar, actief op zoek naar nieuwe technologieën om up-to-date over trends in de sector en vooruitgang, 
-  Op zoek naar een internationale carrière ervaring kans.
-  Ik denken graag 'out of the box' dus alle creatieve ideeën zijn zeer welkom.
-  Behalen goed ervaring over de WordPress ontwikkelen alle twee de Back-end en Front-end, Network (Multisite), werkt goed met PHP, HTML(5), CSS(3), JavaScripts (jQuery, AJAX, Node.js, Angular).
-  Enthousiast over Java, software development, Android Application development en nieuwe technologieën
-  Zou graag de gelegenheid in de IOT industrie
-  Klaar voor een nieuwe en leuke Uitdaging !!.
+  Web development & Hosting solutions.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ehabdevel
@@ -43,6 +37,8 @@ exclude:
 links:
   - title: Home
     url: /
+  - title: About
+    url: /about
   - title: Articles
     url: /articles
   - title: github
