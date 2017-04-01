@@ -5,8 +5,7 @@ date:   2017-04-1 08:05:05 +0200
 categories: wordpress
 ---
 
-To change the excerpt-length add this code to your functions file:
-
+<p>To change the excerpt-length add this code to your functions file:</p>
 <code>
 function wpe_excerptlength_teaser($length) {
     return 45;
@@ -29,7 +28,6 @@ function wpe_excerpt($length_callback = '', $more_callback = '') {
     echo $output;
 }
 </code>
-
 <p>And then in your loop add this line of code:</p>
 <code>wpe_excerpt('wpe_excerptlength_index', 'wpe_excerptmore');</code>
 <p>Or</p>
