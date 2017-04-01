@@ -232,9 +232,17 @@ body {
   }
 }
 
+
 .post-title {
     font-size: 4.25rem;
     text-align: center;
     font-family: volkhov,serif;
     font-style: italic;
+}
+
+
+a.post-link {
+    font-size: 1.25rem;
+    color: #222;
+    text-decoration: none;
 }
