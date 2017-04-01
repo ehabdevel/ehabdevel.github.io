@@ -9,7 +9,6 @@ Here is an Auto featured:
 
 <code>
 <?php
-/* * *******Auto featured ******* */
 !defined('ABSPATH') and exit;
 if (!function_exists('fb_set_featured_image')) {
     add_action('save_post', 'fb_set_featured_image');
