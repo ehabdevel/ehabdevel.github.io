@@ -240,9 +240,23 @@ body {
     font-style: italic;
 }
 
+/***HomePage***/
 
+h1.page-heading {
+    display: none;
+}
 a.post-link {
     font-size: 1.25rem;
     color: #222;
     text-decoration: none;
+    border-bottom: 1px solid #eee;
+}
+span.post-meta {
+    float: right;
+}
+p.rss-subscribe {
+    font-size: 1rem;
+}
+footer {
+    font-size: 1rem;
 }
