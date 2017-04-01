@@ -36,3 +36,15 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Articles
+    url: /articles
+  - title: github
+    url: http://github.com/ehabdevel
+    external: true
