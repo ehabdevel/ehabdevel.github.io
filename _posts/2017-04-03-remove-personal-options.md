@@ -6,7 +6,8 @@ categories: wordpress
 ---
 
 To remove the personal options in the profile page:
-<code>if (!function_exists('cor_remove_personal_options')) {
+
+<code><?php if (!function_exists('cor_remove_personal_options')) {
     /**
      * Removes the leftover 'Visual Editor', 'Keyboard Shortcuts' and 'Toolbar' options.
      */
@@ -17,12 +18,10 @@ To remove the personal options in the profile page:
         $subject = preg_replace('#<label for="jabber">.+?/tr>#s', '', $subject, 1);
         return $subject;
     }
-
     function cor_profile_subject_start() {
         ob_start('cor_remove_personal_options');
     }
-
     function cor_profile_subject_end() {
         ob_end_flush();
     }
-}</code>
+}?></code>
