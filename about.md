@@ -4,6 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is Ehab Ashour a developer who can help you to build your site/app/program with the most newest technology in the field.
+I like Software development, Android Application development, IoT and new technologies.
+
+I use the great WordPress for building Websites.
+
+I love and in hunger for PHP, JavaScript, Node.js, JAVA EE, Ruby,...
 
 http://itredsea.com/
