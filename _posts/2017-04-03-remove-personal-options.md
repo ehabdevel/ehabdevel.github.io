@@ -7,7 +7,9 @@ categories: wordpress
 
 To remove the personal options in the profile page:
 
-<code><?php if (!function_exists('cor_remove_personal_options')) {
+<code>
+<?php
+if (!function_exists('cor_remove_personal_options')) {
     /**
      * Removes the leftover 'Visual Editor', 'Keyboard Shortcuts' and 'Toolbar' options.
      */
@@ -24,4 +26,5 @@ To remove the personal options in the profile page:
     function cor_profile_subject_end() {
         ob_end_flush();
     }
-}?></code>
+}?>
+</code>
