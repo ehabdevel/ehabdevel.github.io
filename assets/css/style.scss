@@ -203,6 +203,8 @@ body {
   -moz-animation-delay: .75s;
   -o-animation-delay: .75s;
   animation-delay: .75s;
+  float: none;
+  font-weight: bold;
 }
 .site-title a {
   color: #000000;
@@ -228,4 +230,50 @@ body {
     font-size: 20px;
     font-size: 1.25rem;
   }
+}
+
+
+.post-title {
+    font-size: 4.25rem;
+    text-align: center;
+    font-family: volkhov,serif;
+    font-style: italic;
+}
+
+/***HomePage***/
+
+p.view {
+    font-family: volkhov,serif;
+    font-style: italic;
+}
+h1.page-heading {
+    font-size: 4.25rem;
+    text-align: center;
+    font-family: volkhov,serif;
+    font-style: italic;
+}
+a.post-link {
+    font-size: 1.25rem;
+    color: #222;
+    text-decoration: none;
+}
+.post-list > li {
+    margin: 1em;  
+    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+span.post-meta {
+    float: right;
+}
+p.rss-subscribe {
+    font-size: 0.89rem;
+}
+footer {
+    font-size: 0.8rem;
+    text-align: center
+}
+
+
+code {
+    white-space: pre-wrap;
 }
