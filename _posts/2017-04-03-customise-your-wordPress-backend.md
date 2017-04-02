@@ -48,3 +48,4 @@ function example_remove_dashboard_widgets() {
     remove_meta_box('dashboard_plugins', 'dashboard', 'normal');
 }
 </code>
+
