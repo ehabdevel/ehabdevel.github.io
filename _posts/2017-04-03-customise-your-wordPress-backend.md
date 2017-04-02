@@ -6,6 +6,7 @@ categories: wordpress
 ---
 
 <p>To Customise your WordPress Backend (Dashboard, Admin menu pages, Admin bar menu, Remove contextual help)</p>
+
 <code>if (!is_super_admin()) {
     add_action('admin_bar_menu', 'remove_wp_logo', 999);
     add_action('admin_init', 'my_remove_menu_pages');
