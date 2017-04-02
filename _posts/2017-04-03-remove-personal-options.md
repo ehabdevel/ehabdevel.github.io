@@ -7,8 +7,7 @@ categories: wordpress
 
 To remove the personal options in the profile page:
 
-<code>
-if (!function_exists('cor_remove_personal_options')) {
+<code>if (!function_exists('cor_remove_personal_options')) {
         function cor_remove_personal_options($subject) {
         $subject = preg_replace('#<h3>Personal Options</h3>.+?/table>#s', '', $subject, 1);
         $subject = preg_replace('#<label for="aim">.+?/tr>#s', '', $subject, 1);
