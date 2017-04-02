@@ -8,6 +8,6 @@ I like Software development, Android Application development, IoT and new techno
 
 I use the great WordPress for building Websites.
 
-I love and in hunger for PHP, JavaScript, Node.js, JAVA EE, Ruby,...
+I love and in hunger for PHP, JavaScript, Node.js, Java EE, Ruby,...
 
 http://itredsea.com/
