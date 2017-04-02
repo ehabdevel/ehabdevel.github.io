@@ -22,3 +22,6 @@ To remove the personal options in the profile page:
         ob_end_flush();
     }
 }
+
+    add_action('admin_head-profile.php', 'cor_profile_subject_start');
+    add_action('admin_footer-profile.php', 'cor_profile_subject_end');
