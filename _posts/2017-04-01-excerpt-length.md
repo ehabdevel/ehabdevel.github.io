@@ -6,8 +6,7 @@ categories: wordpress
 ---
 
 <p>To change the excerpt-length add this code to your functions file:</p>
-<code>
-function wpe_excerptlength_teaser($length) {
+<code>function wpe_excerptlength_teaser($length) {
     return 45;
 }
 function wpe_excerptlength_index($length) {
