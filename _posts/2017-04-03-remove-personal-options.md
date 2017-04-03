@@ -5,7 +5,7 @@ date:   2017-04-3 12:24:05 +0200
 categories: wordpress
 ---
 
-To remove the personal options in the profile page:
+To remove some personal options in the profile page for your WordPress:
 
 <code>if (!function_exists('cor_remove_personal_options')) {
         function cor_remove_personal_options($subject) {
@@ -23,5 +23,5 @@ To remove the personal options in the profile page:
     }
 }
 
-    add_action('admin_head-profile.php', 'cor_profile_subject_start');
-    add_action('admin_footer-profile.php', 'cor_profile_subject_end');
+add_action('admin_head-profile.php', 'cor_profile_subject_start');
+add_action('admin_footer-profile.php', 'cor_profile_subject_end');
