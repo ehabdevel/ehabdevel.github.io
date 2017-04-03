@@ -14,14 +14,14 @@ layout: default
   
  <!-- Pagination links -->
 <div class="pagination">
-  {% if post.previous_page %}
-    <a href="{{ post.previous_page_path }}" class="previous">Previous</a>
+  {% if page.previous_page %}
+    <a href="{{ page.previous_page_path }}" class="previous">Previous</a>
   {% else %}
-    <span class="previous">Previous</span>
+    <span class="previous">no-Previous</span>
   {% endif %}
-  <span class="page_number ">Page: {{ post.page }} of {{ post.total_pages }}</span>
-  {% if post.next_page %}
-    <a href="{{ post.next_page_path }}" class="next">Next</a>
+  <span class="page_number ">Page: {{ page.page }} of {{ page.total_pages }}</span>
+  {% if page.next_page %}
+    <a href="{{ page.next_page_path }}" class="next">Next</a>
   {% else %}
     <span class="next ">Next</span>
   {% endif %}
